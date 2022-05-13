@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
-* {
-  font-family: 'Amatic SC', cursive;
-  font-size: 30px;
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 18px;
+  text-align: center;
 }
