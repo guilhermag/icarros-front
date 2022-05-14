@@ -1,77 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  
-  <!-- OG Tags global início -->
-  <meta property="og:site" content="https://icarros-gama-guilherme-gabriel.netlify.app/" />
-  <meta property="og:site_name" content="iCarros Academy">
-  <meta property="og:image" content="https://icarros-gama-guilherme-gabriel.netlify.app/img/ico.png" />
-  <meta property="og:description" content="Falando sobre desenvolvimento de software" />
-  
-  <!-- OG Tags Twitter iniicio -->
-  <meta property="twitter:title" content="iCarros Academy" />
-  <meta name="description" content="Falando sobre desenvolvimento" />
-  <meta property="twitter:image" content="img/ico.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- Tags Google início -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Falando sobre desenvolvimento de softwares" />
-  <meta name="kweywords" content="desenvolvimento, html css, javascript, iCarros" />
-  <meta name="copyright" content="Desenvolvido por iCarros Academy"/>
+    <!-- OG Tags global início -->
+    <meta
+      property="og:site"
+      content="https://icarros-gama-guilherme-gabriel.netlify.app/"
+    />
+    <meta property="og:site_name" content="iCarros Academy" />
+    <meta
+      property="og:image"
+      content="https://icarros-gama-guilherme-gabriel.netlify.app/img/ico.jpeg"
+    />
+    <meta
+      property="og:description"
+      content="Falando sobre desenvolvimento de software"
+    />
 
-  <!-- Verificação do Google search console-->
-  <meta name="google-site-verification" content="P-DtXFWD9KL6DI4qHRSnGhQE6wT99Sy5xihJsGLwVj8" />
+    <!-- OG Tags Twitter iniicio -->
+    <meta property="twitter:title" content="iCarros Academy" />
+    <meta name="description" content="Falando sobre desenvolvimento" />
+    <meta property="twitter:image" content="img/ico.jpeg" />
 
-<!-- Hotjar Tracking Code for https://icarros-gama-guilherme-gabriel.netlify.app -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2969640,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <!-- Tags Google início -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="description"
+      content="Falando sobre desenvolvimento de softwares"
+    />
+    <meta
+      name="kweywords"
+      content="desenvolvimento, html css, javascript, iCarros"
+    />
+    <meta name="copyright" content="Desenvolvido por iCarros Academy" />
 
-  <link rel="icon" type="image/png" href="img/ico.png">
-  <title>iCarros </title>
-</head>
-<body>
-  <header>
-    <h1>iCarros</h1>
-  </header>
+    <!-- Verificação do Google search console-->
+    <meta
+      name="google-site-verification"
+      content="P-DtXFWD9KL6DI4qHRSnGhQE6wT99Sy5xihJsGLwVj8"
+    />
 
-  <main>
-    <section>
-      <h2>Html</h2>
-      <article>
-        HTML - Hiper-Text Markup Language.
-        <button onclick="clickMe()">Clique aqui para ver mais</button>
-        
-      </article>
-      <h2>CSS</h2>
-      <article>
-        CSS - Cascade Style Sheet.
-        <button onclick="clickMe()">Clique aqui para ver mais</button>
-      </article>
-      <h2>JavaScript</h2>
-      <article>
-        JavaScript - ECMASCRIPT.
-        <button onclick="clickMe()">Clique aqui para ver mais</button>
-      </article>
-    </section>
+    <!-- Hotjar Tracking Code for https://icarros-gama-guilherme-gabriel.netlify.app -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2969640, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
 
+    <script defer src="js/app.js"></script>
 
-  </main>
+    <link rel="icon" type="image/png" href="img/ico.jpeg" />
+    <title>iCarros</title>
+  </head>
+  <body>
+    <header>
+      <h1>iCarros</h1>
+    </header>
 
-  <footer>
-    <p>Todos os direitos reservados</p>
-  </footer>
-  <script src="js/app.js"></script>
-</body>
+    <main>
+      <section id="html">
+        <h2>Html</h2>
+        <article>
+          HTML - Hiper-Text Markup Language.
+          <button onclick="clickMe()">Clique aqui para ver mais</button>
+        </article>
+      </section>
+
+      <section id="css">
+        <h2>CSS</h2>
+        <article>
+          CSS - Cascade Style Sheet.
+          <button onclick="clickMe()">Clique aqui para ver mais</button>
+        </article>
+      </section>
+
+      <section id="javascript">
+        <h2>JavaScript</h2>
+        <article>
+          JavaScript - ECMASCRIPT.
+          <button onclick="clickMe()">Clique aqui para ver mais</button>
+        </article>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>
+        <a href="#">Link a</a>
+        <a href="#">Link b</a>
+        <a href="#">Link c</a>
+        <a href="#">Link d</a>
+      </div>
+      <div>
+        <a href="#">Link e</a>
+        <a href="#">Link f</a>
+        <a href="#">Link g</a>
+        <a href="#">Link h</a>
+      </div>
+      <div>
+        <a href="#">Link i</a>
+        <a href="#">Link j</a>
+        <a href="#">Link k</a>
+        <a href="#">Link l</a>
+      </div>
+      <p>Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>
