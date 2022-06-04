@@ -1,4 +1,6 @@
-# <"acelera"><"iCarros_Tech"> - Gama Academy
+# Projeto 01: Frontend iCarros
+
+## <"acelera"><"iCarros_Tech"> - Gama Academy
 
 O objetivo desse projeto foi colocar em prática os conhecimentos adquiridos durante as aulas síncronas e assíncronas do Acelera Tech iCarros, feitos em parceria de [Gama Academy](https://www.gama.academy/) e o [iCarros](https://www.icarros.com.br/principal/index.jsp).
 
