@@ -30,7 +30,7 @@ Hamburger menu pressionado.
 
 ### Acessar o site do projeto
 
-O projeto está hospedado no Netilify, podendo ser acessado por esse [link](https://icarros-gama-guilherme-gabriel.netlify.app/).
+O projeto está hospedado no Netilify, podendo ser acessado por esse [link](https://icarros-gama-exc01-front-guilherme-gabriel.netlify.app/).
 
 ### Clone o repositório e abra remotamente
 
